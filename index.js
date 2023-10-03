@@ -29,6 +29,7 @@ while (opcion != 1 && opcion != 2) {
         let valorConPorcentaje = (porcentaje / 100) * numeroIngresado;
         balance = balance + (numeroIngresado - valorConPorcentaje);
     }
+    balance =  Math.trunc(balance) 
 
     alert ("El balance sin el 21% del IVA es de: $" + balance)
 
