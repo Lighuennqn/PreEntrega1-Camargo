@@ -1,10 +1,10 @@
 let balance = 0;
-    alert("Bienvenidos al sistema de cálculos de ganacias mensuales, ejecutado semana por semana.");
-
 let opcion = 0;
 let semanas = 0; 
 let porcentaje = 21;
 let haberes = 0;
+    
+alert("Bienvenidos al sistema de cálculos de ganacias mensuales, ejecutado semana por semana.");
 
 while (opcion != 1 && opcion != 2) {
     opcion = parseInt(prompt(`¿Cuántas semanas tiene el corriente mes?
